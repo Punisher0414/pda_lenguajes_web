@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(150, 150, 150);
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#botonenvio{
+    background-color: rgb(119, 119, 119);
+    border: 0px;
+}
+
+.envio{
+    color: rgb(65, 65, 65);
+    text-align: center;
+    padding: 20px;
+}
